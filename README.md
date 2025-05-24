@@ -1,6 +1,7 @@
 # Proyecto Bot PLN
 
 ## Requisitos
+
 - Node.js 18.x
 - Docker (opcional para despliegue)
 
@@ -17,11 +18,13 @@ npm start
 ```
 
 ## Estructura
+
 - `src/nlp/corpus.json`: Preguntas y respuestas frecuentes.
 - `src/config/users.js`: Lista de usuarios para mensajes de bienvenida.
 - `logs/unrecognized.log`: Consultas no reconocidas.
 
 ## Personalización
+
 - Agrega tus preguntas y respuestas en `src/nlp/corpus.json`.
 - Cambia el mensaje y la imagen de bienvenida en `src/utils/image.js`.
 
@@ -29,7 +32,7 @@ npm start
 
 ## Arquitectura física-técnica
 
-```
+```bash
 ┌────────────┐        ┌──────────────┐        ┌──────────────┐
 │  Usuario   │◀─────▶│ WhatsApp Web │◀─────▶│   Bot PLN    │
 └────────────┘        └──────────────┘        └──────────────┘
@@ -71,4 +74,5 @@ npm start
 ---
 
 ## Docker
+
 Próximamente instrucciones para Docker.
