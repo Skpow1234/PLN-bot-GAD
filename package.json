@@ -1,0 +1,20 @@
+{
+  "name": "proyecto-bot-pln",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/bot/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "natural": "^8.1.0",
+    "qrcode-terminal": "^0.12.0",
+    "string-similarity": "^4.0.4",
+    "whatsapp-web.js": "^1.28.0"
+  }
+}
