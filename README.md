@@ -3,7 +3,6 @@
 ## Requisitos
 
 - Node.js 18.x
-- Docker (opcional para despliegue)
 
 ## Instalación
 
@@ -103,6 +102,12 @@ Esto permite que el bot sea flexible ante variaciones en la redacción de las pr
 
 ---
 
-## Docker
+## Frontend web para escanear el QR
 
-Próximamente instrucciones para Docker.
+Ahora el proyecto incluye un pequeño frontend web para mostrar el código QR de WhatsApp en el navegador.
+
+- Cuando inicies el bot, abre [http://localhost:3000](http://localhost:3000) en tu navegador.
+- Verás el QR actualizado en tiempo real para escanearlo con tu app de WhatsApp.
+- El frontend está en `src/web/index.html` y se sirve automáticamente con Express.
+
+---

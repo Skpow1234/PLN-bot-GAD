@@ -8,6 +8,9 @@ const path = require('path');
 const bienvenidaPath = path.join(__dirname, '../../logs/bienvenida_enviada.json');
 let bienvenidaEnviada = [];
 
+// Contexto conversacional en memoria
+const contextoUsuarios = {};
+
 // Cargar la lista de usuarios a los que ya se les envió la bienvenida
 if (fs.existsSync(bienvenidaPath)) {
   try {
@@ -27,7 +30,7 @@ function handleQR(qr) {
 }
 
 function handleReady(client) {
-  console.log(' Cliente listo');
+  console.log('✅ Cliente listo');
 }
 
 async function handleMessage(client, message) {
@@ -53,6 +56,22 @@ async function handleMessage(client, message) {
       // Si falla la bienvenida, aún así procesar el mensaje normalmente
     }
   }
+
+  // Manejo de contexto: pedir nombre si el usuario quiere inscribirse
+  if (contextoUsuarios[user] && contextoUsuarios[user].estado === 'esperando_nombre') {
+    contextoUsuarios[user].nombre = message.body.trim();
+    await client.sendMessage(user, `¡Gracias, ${contextoUsuarios[user].nombre}! Hemos registrado tu nombre para el proceso de inscripción.`);
+    delete contextoUsuarios[user]; // Vuelve al flujo normal
+    return;
+  }
+
+  // Detectar intención de inscripción
+  if (/quiero inscribirme|inscribirme|inscripción/i.test(message.body)) {
+    contextoUsuarios[user] = { estado: 'esperando_nombre' };
+    await client.sendMessage(user, '¡Perfecto! ¿Cuál es tu nombre completo?');
+    return;
+  }
+
   const respuesta = buscarRespuesta(message.body);
   if (respuesta === null) {
     client.sendMessage(user, RESPUESTA_GENERICA);
