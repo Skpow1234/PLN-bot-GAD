@@ -2,7 +2,7 @@ const { MessageMedia } = require('whatsapp-web.js');
 const path = require('path');
 
 function getWelcomeMessage() {
-  return "¡Bienvenido! Descubre nuestros productos y servicios. ¿En qué podemos ayudarte hoy?";
+  return "¡Bienvenido a la Universidad de San Buenaventura Cali! ¿En qué podemos ayudarte hoy?";
 }
 
 function getWelcomeImage() {
