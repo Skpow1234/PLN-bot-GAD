@@ -214,5 +214,517 @@
   {
     "pregunta": "¿Dónde puedo consultar el listado de docentes?",
     "respuesta": "El listado de docentes está disponible en la web institucional y en el portal de estudiantes."
+  },
+  {
+    "pregunta": "¿Cuáles son los requisitos para aplicar a una beca en la USBCALI?",
+    "respuesta": "Los requisitos varían según el tipo de beca. Generalmente se solicita un buen promedio académico, documentos de identidad y, en algunos casos, carta de motivación. Consulta la sección de becas en la web institucional para requisitos específicos."
+  },
+  {
+    "pregunta": "¿Dónde puedo encontrar información sobre intercambios internacionales?",
+    "respuesta": "La información sobre intercambios internacionales está disponible en la Oficina de Relaciones Internacionales y en la web institucional en la sección de internacionalización."
+  },
+  {
+    "pregunta": "¿Qué es el sistema ASIS?",
+    "respuesta": "ASIS es el sistema de autoservicio institucional donde los estudiantes pueden realizar trámites académicos, consultar notas, horarios y más."
+  },
+  {
+    "pregunta": "¿Cómo puedo acceder a la plataforma ASIS?",
+    "respuesta": "Puedes acceder a ASIS desde la web institucional con tu usuario y contraseña institucional."
+  },
+  {
+    "pregunta": "¿Qué servicios ofrece la biblioteca digital?",
+    "respuesta": "La biblioteca digital ofrece acceso a libros, revistas, bases de datos, recursos multimedia y servicios de consulta en línea para toda la comunidad USB Cali."
+  },
+  {
+    "pregunta": "¿Cómo puedo reservar un libro en la biblioteca?",
+    "respuesta": "Puedes reservar libros a través del catálogo en línea de la biblioteca o directamente en el mostrador de préstamos."
+  },
+  {
+    "pregunta": "¿Qué es el PAOE?",
+    "respuesta": "El PAOE es el Programa de Acompañamiento y Orientación Estudiantil, que brinda apoyo académico, psicológico y social a los estudiantes."
+  },
+  {
+    "pregunta": "¿Cómo puedo solicitar asesoría psicológica?",
+    "respuesta": "Solicita una cita a través de Bienestar Universitario o en la web institucional en la sección de servicios de psicología."
+  },
+  {
+    "pregunta": "¿Qué actividades deportivas ofrece la universidad?",
+    "respuesta": "La universidad ofrece fútbol, baloncesto, voleibol, natación, atletismo, tenis de mesa, entre otros deportes."
+  },
+  {
+    "pregunta": "¿Cómo puedo inscribirme a actividades culturales?",
+    "respuesta": "Puedes inscribirte a actividades culturales a través de Bienestar Universitario o en la web institucional en la sección de cultura."
+  },
+  {
+    "pregunta": "¿Qué es la movilidad académica?",
+    "respuesta": "La movilidad académica permite a los estudiantes cursar asignaturas o realizar prácticas en otras universidades nacionales o internacionales con las que la USB Cali tiene convenio."
+  },
+  {
+    "pregunta": "¿Cómo puedo solicitar un certificado laboral?",
+    "respuesta": "Solicita el certificado laboral en la oficina de Talento Humano o a través del portal institucional."
+  },
+  {
+    "pregunta": "¿Qué opciones de financiación existen para el pago de matrícula?",
+    "respuesta": "Existen convenios con entidades financieras, pago por cuotas y opciones de crédito educativo. Consulta la sección de financiación en la web institucional."
+  },
+  {
+    "pregunta": "¿Dónde puedo consultar los horarios de clase?",
+    "respuesta": "Los horarios de clase están disponibles en el portal de estudiantes y en la web institucional."
+  },
+  {
+    "pregunta": "¿Qué es la acreditación institucional de alta calidad?",
+    "respuesta": "Es un reconocimiento otorgado por el Ministerio de Educación Nacional a las instituciones que cumplen altos estándares de calidad académica y administrativa."
+  },
+  {
+    "pregunta": "¿Cómo puedo acceder a los cursos de educación continua?",
+    "respuesta": "Consulta la oferta de cursos de educación continua en la web institucional y realiza la inscripción en línea."
+  },
+  {
+    "pregunta": "¿Qué es el programa de doble titulación?",
+    "respuesta": "Es un programa que permite obtener dos títulos académicos simultáneamente, cumpliendo los requisitos de ambos programas."
+  },
+  {
+    "pregunta": "¿Cómo puedo actualizar mis datos personales en la universidad?",
+    "respuesta": "Puedes actualizar tus datos personales en el portal de estudiantes o en la oficina de Admisiones y Registro Académico."
+  },
+  {
+    "pregunta": "¿Qué servicios de salud mental ofrece la universidad?",
+    "respuesta": "Ofrecemos acompañamiento psicológico, talleres de manejo de estrés, prevención de consumo de sustancias y orientación vocacional."
+  },
+  {
+    "pregunta": "¿Cómo puedo participar en semilleros de investigación?",
+    "respuesta": "Consulta la oferta de semilleros en tu facultad o en la web institucional y comunícate con el coordinador del semillero de tu interés."
+  },
+  {
+    "pregunta": "¿Qué es el CIDEH?",
+    "respuesta": "El CIDEH es el Centro Interdisciplinario de Estudios Humanísticos, encargado de promover la formación integral y humanística en la universidad."
+  },
+  {
+    "pregunta": "¿Cómo puedo solicitar un espacio para eventos estudiantiles?",
+    "respuesta": "Solicita el espacio a través de la oficina de Bienestar Universitario o mediante el sistema de reservas institucional."
+  },
+  {
+    "pregunta": "¿Qué es la pastoral universitaria?",
+    "respuesta": "La pastoral universitaria promueve actividades de formación espiritual, voluntariado y acompañamiento a la comunidad universitaria."
+  },
+  {
+    "pregunta": "¿Cómo puedo acceder a la tienda universitaria?",
+    "respuesta": "La tienda universitaria está ubicada en el campus y también puedes acceder a algunos productos en línea a través de la web institucional."
+  },
+  {
+    "pregunta": "¿Qué servicios ofrece el Centro de Idiomas?",
+    "respuesta": "El Centro de Idiomas ofrece cursos de inglés, francés, portugués y otros idiomas, así como exámenes de certificación internacional."
+  },
+  {
+    "pregunta": "¿Cómo puedo inscribirme a un curso de idiomas?",
+    "respuesta": "Puedes inscribirte en el Centro de Idiomas o a través de la web institucional en la sección de idiomas."
+  },
+  {
+    "pregunta": "¿Qué es el programa de voluntariado institucional?",
+    "respuesta": "Es un programa que permite a los estudiantes participar en actividades de responsabilidad social y apoyo a comunidades vulnerables."
+  },
+  {
+    "pregunta": "¿Cómo puedo acceder a la bolsa de empleo de la universidad?",
+    "respuesta": "La bolsa de empleo está disponible en la web institucional y en la Oficina de Egresados."
+  },
+  {
+    "pregunta": "¿Qué servicios ofrece el consultorio jurídico?",
+    "respuesta": "El consultorio jurídico brinda asesoría legal gratuita a la comunidad y es un espacio de práctica para los estudiantes de Derecho."
+  },
+  {
+    "pregunta": "¿Cómo puedo solicitar una cita en el consultorio jurídico?",
+    "respuesta": "Solicita la cita en la oficina del consultorio jurídico o a través de la web institucional."
+  },
+  {
+    "pregunta": "¿Qué es el programa de egresados?",
+    "respuesta": "El programa de egresados ofrece acompañamiento laboral, actualización profesional, eventos y acceso a convenios para graduados de la USB Cali."
+  },
+  {
+    "pregunta": "¿Cómo puedo obtener mi diploma de grado?",
+    "respuesta": "El diploma se entrega en la ceremonia de grado o puede ser reclamado posteriormente en la oficina de Admisiones y Registro Académico."
+  },
+  {
+    "pregunta": "¿Qué es la formación por competencias?",
+    "respuesta": "Es un enfoque educativo que busca desarrollar habilidades, conocimientos y actitudes necesarias para el desempeño profesional."
+  },
+  {
+    "pregunta": "¿Cómo puedo acceder a los servicios de la cafetería?",
+    "respuesta": "La cafetería está disponible para toda la comunidad universitaria durante el horario de atención del campus."
+  },
+  {
+    "pregunta": "¿Qué es el programa de mentorías?",
+    "respuesta": "El programa de mentorías conecta a estudiantes con egresados o docentes para orientación académica y profesional."
+  },
+  {
+    "pregunta": "¿Cómo puedo solicitar un duplicado de mi carné estudiantil?",
+    "respuesta": "Solicita el duplicado en la oficina de Admisiones y Registro Académico presentando tu documento de identidad y el comprobante de pago."
+  },
+  {
+    "pregunta": "¿Qué servicios ofrece el área de deportes?",
+    "respuesta": "El área de deportes organiza torneos, entrenamientos y actividades recreativas para estudiantes y empleados."
+  },
+  {
+    "pregunta": "¿Cómo puedo acceder a los laboratorios de informática?",
+    "respuesta": "Los laboratorios de informática están disponibles para estudiantes de programas que los requieran, consulta los horarios en tu facultad."
+  },
+  {
+    "pregunta": "¿Qué es la movilidad nacional?",
+    "respuesta": "La movilidad nacional permite a los estudiantes cursar asignaturas en otras universidades colombianas con convenio vigente."
+  },
+  {
+    "pregunta": "¿Cómo puedo solicitar una constancia de estudio?",
+    "respuesta": "Solicita la constancia en la oficina de Admisiones y Registro Académico o a través del portal de estudiantes."
+  },
+  {
+    "pregunta": "¿Qué servicios ofrece el área de bienestar universitario?",
+    "respuesta": "Bienestar Universitario ofrece servicios de salud, deporte, cultura, acompañamiento psicológico, orientación vocacional y más."
+  },
+  {
+    "pregunta": "¿Cómo puedo participar en ferias y eventos universitarios?",
+    "respuesta": "Consulta el calendario de eventos en la web institucional y comunícate con Bienestar Universitario para inscribirte."
+  },
+  {
+    "pregunta": "¿Qué es la educación virtual?",
+    "respuesta": "La educación virtual es una modalidad de estudio que utiliza plataformas digitales para el desarrollo de clases, actividades y evaluaciones."
+  },
+  {
+    "pregunta": "¿Cómo puedo acceder a los cursos virtuales?",
+    "respuesta": "Accede a los cursos virtuales a través de la plataforma eCampus o MiCampusVirtual con tu usuario institucional."
+  },
+  {
+    "pregunta": "¿Qué es la acreditación de programas académicos?",
+    "respuesta": "Es el reconocimiento de calidad otorgado por el Ministerio de Educación Nacional a los programas que cumplen altos estándares académicos."
+  },
+  {
+    "pregunta": "¿Cómo puedo solicitar un traslado externo a la USB Cali?",
+    "respuesta": "Debes presentar la solicitud de traslado, certificados de notas y programas cursados en tu universidad de origen."
+  },
+  {
+    "pregunta": "¿Qué servicios ofrece el área de pastoral universitaria?",
+    "respuesta": "Ofrece acompañamiento espiritual, actividades de formación en valores y voluntariado social."
+  },
+  {
+    "pregunta": "¿Cómo puedo acceder a los servicios de la Oficina de Relaciones Internacionales?",
+    "respuesta": "Comunícate con la Oficina de Relaciones Internacionales o consulta la web institucional para conocer los servicios y oportunidades."
+  },
+  {
+    "pregunta": "¿Qué es el programa de formación en liderazgo?",
+    "respuesta": "Es un programa que desarrolla habilidades de liderazgo, trabajo en equipo y gestión de proyectos en los estudiantes."
+  },
+  {
+    "pregunta": "¿Cómo puedo inscribirme a diplomados?",
+    "respuesta": "Consulta la oferta de diplomados en la web institucional y realiza la inscripción en línea o en la oficina de Educación Continua."
+  },
+  {
+    "pregunta": "¿Qué servicios ofrece el área de egresados?",
+    "respuesta": "El área de egresados brinda acompañamiento laboral, actualización profesional, eventos y acceso a convenios para graduados."
+  },
+  {
+    "pregunta": "¿Cómo puedo solicitar una cita médica en la universidad?",
+    "respuesta": "Solicita la cita médica en Bienestar Universitario o a través del portal institucional."
+  },
+  {
+    "pregunta": "¿Qué es el programa de inclusión y diversidad?",
+    "respuesta": "Es un programa que promueve la igualdad de oportunidades y la participación de personas con discapacidad o de grupos minoritarios."
+  },
+  {
+    "pregunta": "¿Cómo puedo acceder a los servicios de apoyo académico?",
+    "respuesta": "Solicita apoyo académico en tu facultad o en el Programa de Acompañamiento y Orientación Estudiantil (PAOE)."
+  },
+  {
+    "pregunta": "¿Qué servicios ofrece el área de tecnología?",
+    "respuesta": "El área de tecnología brinda soporte técnico, acceso a internet, plataformas virtuales y laboratorios de informática."
+  },
+  {
+    "pregunta": "¿Cómo puedo participar en proyectos de investigación?",
+    "respuesta": "Consulta la oferta de proyectos en tu facultad o en la web institucional y comunícate con el coordinador de investigación."
+  },
+  {
+    "pregunta": "¿Qué es el programa de responsabilidad social universitaria?",
+    "respuesta": "Es un programa que promueve la participación de la comunidad universitaria en proyectos sociales y ambientales."
+  },
+  {
+    "pregunta": "¿Cómo puedo acceder a los servicios de la Oficina de Prácticas?",
+    "respuesta": "Consulta la oferta de prácticas en tu facultad o en la web institucional y comunícate con la Oficina de Prácticas."
+  },
+  {
+    "pregunta": "¿Qué servicios ofrece el área de comunicaciones?",
+    "respuesta": "El área de comunicaciones gestiona la información institucional, redes sociales, eventos y boletines informativos."
+  },
+  {
+    "pregunta": "¿Cómo puedo inscribirme a cursos cortos o talleres?",
+    "respuesta": "Consulta la oferta de cursos cortos y talleres en la web institucional y realiza la inscripción en línea."
+  },
+  {
+    "pregunta": "¿Qué es el programa de emprendimiento universitario?",
+    "respuesta": "Es un programa que apoya a los estudiantes y egresados en la creación y desarrollo de ideas de negocio."
+  },
+  {
+    "pregunta": "¿Cómo puedo acceder a los servicios de la Oficina de Bienestar Universitario?",
+    "respuesta": "Comunícate con Bienestar Universitario o consulta la web institucional para conocer los servicios y actividades disponibles."
+  },
+  {
+    "pregunta": "¿Qué servicios ofrece el área de seguridad y salud en el trabajo?",
+    "respuesta": "Ofrece capacitaciones, campañas de prevención y atención en caso de accidentes laborales para empleados y estudiantes."
+  },
+  {
+    "pregunta": "¿Cómo puedo participar en actividades de voluntariado internacional?",
+    "respuesta": "Consulta la oferta de voluntariado internacional en la Oficina de Relaciones Internacionales o en la web institucional."
+  },
+  {
+    "pregunta": "¿Qué es el programa de formación en competencias digitales?",
+    "respuesta": "Es un programa que desarrolla habilidades en el uso de tecnologías de la información y la comunicación."
+  },
+  {
+    "pregunta": "¿Cómo puedo acceder a los servicios de la Oficina de Admisiones?",
+    "respuesta": "Comunícate con la Oficina de Admisiones o consulta la web institucional para conocer los servicios y procesos de inscripción."
+  },
+  {
+    "pregunta": "¿Qué servicios ofrece el área de orientación profesional?",
+    "respuesta": "Ofrece asesoría en elección de carrera, búsqueda de empleo y desarrollo de habilidades profesionales."
+  },
+  {
+    "pregunta": "¿Cómo puedo inscribirme a actividades extracurriculares?",
+    "respuesta": "Consulta la oferta de actividades extracurriculares en Bienestar Universitario o en la web institucional."
+  },
+  {
+    "pregunta": "¿Qué es el programa de movilidad docente?",
+    "respuesta": "Es un programa que permite a los docentes realizar intercambios académicos y participar en proyectos internacionales."
+  },
+  {
+    "pregunta": "¿Cómo puedo acceder a los servicios de la Oficina de Egresados?",
+    "respuesta": "Comunícate con la Oficina de Egresados o consulta la web institucional para conocer los servicios y beneficios disponibles."
+  },
+  {
+    "pregunta": "¿Qué servicios ofrece el área de recursos humanos?",
+    "respuesta": "Recursos Humanos gestiona procesos de selección, contratación, bienestar laboral y desarrollo profesional de empleados."
+  },
+  {
+    "pregunta": "¿Cómo puedo inscribirme a programas de posgrado?",
+    "respuesta": "Consulta la oferta de posgrados en la web institucional y realiza la inscripción en línea o en la oficina de Admisiones."
+  },
+  {
+    "pregunta": "¿Qué es el programa de formación en valores?",
+    "respuesta": "Es un programa que promueve la formación ética y ciudadana en la comunidad universitaria."
+  },
+  {
+    "pregunta": "¿Cómo puedo acceder a los servicios de la Oficina de Internacionalización?",
+    "respuesta": "Comunícate con la Oficina de Internacionalización o consulta la web institucional para conocer los servicios y oportunidades."
+  },
+  {
+    "pregunta": "¿Qué servicios ofrece el área de apoyo financiero?",
+    "respuesta": "Apoyo financiero brinda información y asesoría sobre becas, créditos y opciones de financiación para estudiantes."
+  },
+  {
+    "pregunta": "¿Cómo puedo inscribirme a cursos de formación continua?",
+    "respuesta": "Consulta la oferta de formación continua en la web institucional y realiza la inscripción en línea."
+  },
+  {
+    "pregunta": "¿Qué es el programa de acompañamiento académico?",
+    "respuesta": "Es un programa que brinda apoyo académico personalizado a estudiantes que lo requieran."
+  },
+  {
+    "pregunta": "¿Cómo puedo acceder a los servicios de la Oficina de Prácticas Profesionales?",
+    "respuesta": "Comunícate con la Oficina de Prácticas Profesionales o consulta la web institucional para conocer los servicios y oportunidades."
+  },
+  {
+    "pregunta": "¿Qué servicios ofrece el área de investigación?",
+    "respuesta": "El área de investigación promueve proyectos, semilleros, publicaciones y eventos científicos en la universidad."
+  },
+  {
+    "pregunta": "¿Cómo puedo inscribirme a actividades deportivas?",
+    "respuesta": "Consulta la oferta de deportes en Bienestar Universitario o en la web institucional y realiza la inscripción correspondiente."
+  },
+  {
+    "pregunta": "¿Qué es el programa de formación en emprendimiento?",
+    "respuesta": "Es un programa que fomenta la cultura emprendedora y apoya la creación de empresas por parte de estudiantes y egresados."
+  },
+  {
+    "pregunta": "¿Cómo puedo acceder a los servicios de la Oficina de Comunicaciones?",
+    "respuesta": "Comunícate con la Oficina de Comunicaciones o consulta la web institucional para conocer los servicios y canales de información."
+  },
+  {
+    "pregunta": "¿Qué servicios ofrece el área de gestión ambiental?",
+    "respuesta": "Gestión ambiental promueve prácticas sostenibles, campañas ecológicas y proyectos de responsabilidad ambiental en la universidad."
+  },
+  {
+    "pregunta": "¿Cómo puedo inscribirme a programas de doble titulación?",
+    "respuesta": "Consulta la oferta de doble titulación en la web institucional y realiza la inscripción en la oficina de Admisiones."
+  },
+  {
+    "pregunta": "¿Qué es el programa de formación en habilidades blandas?",
+    "respuesta": "Es un programa que desarrolla habilidades como comunicación, trabajo en equipo, liderazgo y resolución de conflictos."
+  },
+  {
+    "pregunta": "¿Cómo puedo acceder a los servicios de la Oficina de Calidad Académica?",
+    "respuesta": "Comunícate con la Oficina de Calidad Académica o consulta la web institucional para conocer los servicios y procesos de mejora continua."
+  },
+  {
+    "pregunta": "¿Qué servicios ofrece el área de extensión universitaria?",
+    "respuesta": "Extensión universitaria promueve la relación con el entorno social y productivo a través de proyectos, cursos y eventos."
+  },
+  {
+    "pregunta": "¿Cómo puedo inscribirme a actividades de extensión?",
+    "respuesta": "Consulta la oferta de actividades de extensión en la web institucional y realiza la inscripción correspondiente."
+  },
+  {
+    "pregunta": "¿Qué es el programa de formación en investigación?",
+    "respuesta": "Es un programa que fortalece las competencias investigativas de estudiantes y docentes mediante cursos y talleres."
+  },
+  {
+    "pregunta": "¿Cómo puedo acceder a los servicios de la Oficina de Planeación?",
+    "respuesta": "Comunícate con la Oficina de Planeación o consulta la web institucional para conocer los servicios y proyectos institucionales."
+  },
+  {
+    "pregunta": "¿Qué servicios ofrece el área de apoyo a la discapacidad?",
+    "respuesta": "Apoyo a la discapacidad brinda acompañamiento, adaptaciones y recursos para estudiantes con necesidades especiales."
+  },
+  {
+    "pregunta": "¿Cómo puedo inscribirme a programas de movilidad internacional?",
+    "respuesta": "Consulta la oferta de movilidad internacional en la Oficina de Relaciones Internacionales o en la web institucional."
+  },
+  {
+    "pregunta": "¿Qué es el programa de formación en ciudadanía?",
+    "respuesta": "Es un programa que promueve la participación activa y responsable de los estudiantes en la sociedad."
+  },
+  {
+    "pregunta": "¿Cómo puedo acceder a los servicios de la Oficina de Seguridad?",
+    "respuesta": "Comunícate con la Oficina de Seguridad o consulta la web institucional para conocer los servicios y protocolos de seguridad."
+  },
+  {
+    "pregunta": "¿Qué servicios ofrece el área de apoyo a la investigación?",
+    "respuesta": "Apoyo a la investigación brinda asesoría, recursos y acompañamiento en proyectos científicos y académicos."
+  },
+  {
+    "pregunta": "¿Cómo puedo inscribirme a actividades de formación en valores?",
+    "respuesta": "Consulta la oferta de formación en valores en la web institucional y realiza la inscripción correspondiente."
+  },
+  {
+    "pregunta": "¿Qué es el programa de formación en tecnologías emergentes?",
+    "respuesta": "Es un programa que introduce a los estudiantes en el uso y aplicación de nuevas tecnologías en su campo profesional."
+  },
+  {
+    "pregunta": "¿Cómo puedo acceder a los servicios de la Oficina de Apoyo Estudiantil?",
+    "respuesta": "Comunícate con la Oficina de Apoyo Estudiantil o consulta la web institucional para conocer los servicios y apoyos disponibles."
+  },
+  {
+    "pregunta": "¿Qué servicios ofrece el área de gestión documental?",
+    "respuesta": "Gestión documental administra los archivos institucionales y brinda servicios de consulta y certificación de documentos."
+  },
+  {
+    "pregunta": "¿Cómo puedo inscribirme a programas de formación docente?",
+    "respuesta": "Consulta la oferta de formación docente en la web institucional y realiza la inscripción correspondiente."
+  },
+  {
+    "pregunta": "¿Qué es el programa de formación en sostenibilidad?",
+    "respuesta": "Es un programa que promueve prácticas sostenibles y conciencia ambiental en la comunidad universitaria."
+  },
+  {
+    "pregunta": "¿Cómo puedo acceder a los servicios de la Oficina de Publicaciones?",
+    "respuesta": "Comunícate con la Oficina de Publicaciones o consulta la web institucional para conocer los servicios y convocatorias editoriales."
+  },
+  {
+    "pregunta": "¿Qué servicios ofrece el área de apoyo a la innovación?",
+    "respuesta": "Apoyo a la innovación fomenta la creatividad, el desarrollo de proyectos y la transferencia de tecnología en la universidad."
+  },
+  {
+    "pregunta": "¿Cómo puedo inscribirme a actividades de innovación?",
+    "respuesta": "Consulta la oferta de actividades de innovación en la web institucional y realiza la inscripción correspondiente."
+  },
+  {
+    "pregunta": "¿Qué es el programa de formación en habilidades investigativas?",
+    "respuesta": "Es un programa que desarrolla competencias para la investigación científica y académica en estudiantes y docentes."
+  },
+  {
+    "pregunta": "¿Cómo puedo acceder a los servicios de la Oficina de Proyección Social?",
+    "respuesta": "Comunícate con la Oficina de Proyección Social o consulta la web institucional para conocer los servicios y proyectos sociales."
+  },
+  {
+    "pregunta": "¿Qué servicios ofrece el área de apoyo a la empleabilidad?",
+    "respuesta": "Apoyo a la empleabilidad brinda asesoría en búsqueda de empleo, elaboración de hoja de vida y preparación para entrevistas."
+  },
+  {
+    "pregunta": "¿Cómo puedo inscribirme a programas de formación en liderazgo?",
+    "respuesta": "Consulta la oferta de formación en liderazgo en la web institucional y realiza la inscripción correspondiente."
+  },
+  {
+    "pregunta": "¿Qué es el programa de formación en competencias ciudadanas?",
+    "respuesta": "Es un programa que promueve la participación activa, el respeto y la convivencia en la comunidad universitaria."
+  },
+  {
+    "pregunta": "¿Cómo puedo acceder a los servicios de la Oficina de Tutorías?",
+    "respuesta": "Comunícate con la Oficina de Tutorías o consulta la web institucional para conocer los servicios y horarios disponibles."
+  },
+  {
+    "pregunta": "¿Qué servicios ofrece el área de apoyo a la internacionalización?",
+    "respuesta": "Apoyo a la internacionalización brinda información y asesoría sobre intercambios, convenios y oportunidades en el exterior."
+  },
+  {
+    "pregunta": "¿Cómo puedo inscribirme a actividades de internacionalización?",
+    "respuesta": "Consulta la oferta de actividades de internacionalización en la Oficina de Relaciones Internacionales o en la web institucional."
+  },
+  {
+    "pregunta": "¿Qué es el programa de formación en habilidades digitales?",
+    "respuesta": "Es un programa que desarrolla competencias en el uso de herramientas digitales para el aprendizaje y el trabajo."
+  },
+  {
+    "pregunta": "¿Cómo puedo acceder a los servicios de la Oficina de Inclusión?",
+    "respuesta": "Comunícate con la Oficina de Inclusión o consulta la web institucional para conocer los servicios y apoyos disponibles."
+  },
+  {
+    "pregunta": "¿Qué servicios ofrece el área de apoyo a la docencia?",
+    "respuesta": "Apoyo a la docencia brinda asesoría pedagógica, formación y recursos para docentes de la universidad."
+  },
+  {
+    "pregunta": "¿Cómo puedo inscribirme a programas de formación en docencia?",
+    "respuesta": "Consulta la oferta de formación en docencia en la web institucional y realiza la inscripción correspondiente."
+  },
+  {
+    "pregunta": "¿Qué es el programa de formación en habilidades comunicativas?",
+    "respuesta": "Es un programa que desarrolla competencias en expresión oral, escrita y digital para el ámbito académico y profesional."
+  },
+  {
+    "pregunta": "¿Cómo puedo acceder a los servicios de la Oficina de Apoyo Académico?",
+    "respuesta": "Comunícate con la Oficina de Apoyo Académico o consulta la web institucional para conocer los servicios y apoyos disponibles."
+  },
+  {
+    "pregunta": "¿Qué servicios ofrece el área de apoyo a la gestión institucional?",
+    "respuesta": "Apoyo a la gestión institucional brinda asesoría en procesos administrativos, planificación y mejora continua."
+  },
+  {
+    "pregunta": "¿Cómo puedo inscribirme a actividades de gestión institucional?",
+    "respuesta": "Consulta la oferta de actividades de gestión institucional en la web institucional y realiza la inscripción correspondiente."
+  },
+  {
+    "pregunta": "¿Qué es el programa de formación en habilidades para la vida?",
+    "respuesta": "Es un programa que promueve el desarrollo de habilidades personales y sociales para el bienestar y el éxito académico."
+  },
+  {
+    "pregunta": "¿Cómo puedo acceder a los servicios de la Oficina de Apoyo Psicológico?",
+    "respuesta": "Comunícate con la Oficina de Apoyo Psicológico o consulta la web institucional para conocer los servicios y apoyos disponibles."
+  },
+  {
+    "pregunta": "¿Qué servicios ofrece el área de apoyo a la comunidad?",
+    "respuesta": "Apoyo a la comunidad promueve la participación en proyectos sociales, culturales y ambientales en la universidad."
+  },
+  {
+    "pregunta": "¿Cómo puedo inscribirme a actividades de apoyo a la comunidad?",
+    "respuesta": "Consulta la oferta de actividades de apoyo a la comunidad en la web institucional y realiza la inscripción correspondiente."
+  },
+  {
+    "pregunta": "¿Qué es el programa de formación en habilidades de investigación?",
+    "respuesta": "Es un programa que fortalece las competencias investigativas de estudiantes y docentes mediante cursos y talleres."
+  },
+  {
+    "pregunta": "¿Cómo puedo acceder a los servicios de la Oficina de Apoyo a la Innovación?",
+    "respuesta": "Comunícate con la Oficina de Apoyo a la Innovación o consulta la web institucional para conocer los servicios y proyectos disponibles."
+  },
+  {
+    "pregunta": "¿Qué servicios ofrece el área de apoyo a la empleabilidad?",
+    "respuesta": "Apoyo a la empleabilidad brinda asesoría en búsqueda de empleo, elaboración de hoja de vida y preparación para entrevistas."
+  },
+  {
+    "pregunta": "¿Cómo puedo inscribirme a programas de formación en liderazgo?",
+    "respuesta": "Consulta la oferta de formación en liderazgo en la web institucional y realiza la inscripción correspondiente."
   }
 ] 
