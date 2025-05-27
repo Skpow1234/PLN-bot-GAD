@@ -2,7 +2,7 @@
 
 ## Requisitos
 
-- Node.js 18.x
+- Node.js 18
 
 ## Instalación
 

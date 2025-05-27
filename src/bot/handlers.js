@@ -98,28 +98,46 @@ async function handleMessage(client, message) {
   // Manejo de contexto: pedir nombre si el usuario quiere inscribirse
   if (contextoUsuarios[user] && contextoUsuarios[user].estado === 'esperando_nombre') {
     contextoUsuarios[user].nombre = message.body.trim();
-    await client.sendMessage(user, `¡Gracias, ${contextoUsuarios[user].nombre}! Hemos registrado tu nombre para el proceso de inscripción.`);
-    logConversacion({ tipo: 'respuesta', usuario: user, mensaje: `¡Gracias, ${contextoUsuarios[user].nombre}! Hemos registrado tu nombre para el proceso de inscripción.`, timestamp: new Date().toISOString() });
+    await client.sendMessage(user, `¡Gracias, ${contextoUsuarios[user].nombre}! Hemos registrado tus datos para el proceso de inscripción. Pronto nos contactaremos contigo.`);
+    await client.sendMessage(user, '¿Puedo ayudarte con algo más?');
+    logConversacion({ tipo: 'respuesta', usuario: user, mensaje: `¡Gracias, ${contextoUsuarios[user].nombre}! Hemos registrado tus datos para el proceso de inscripción. Pronto nos contactaremos contigo.`, timestamp: new Date().toISOString() });
+    logConversacion({ tipo: 'respuesta', usuario: user, mensaje: '¿Puedo ayudarte con algo más?', timestamp: new Date().toISOString() });
     delete contextoUsuarios[user]; // Vuelve al flujo normal
     return;
   }
 
-  // Detectar intención de inscripción
+  // Detectar intención de inscripción por regex directo
   if (/quiero inscribirme|inscribirme|inscripción/i.test(message.body)) {
+    const respuesta = buscarRespuesta(message.body);
+    if (respuesta && respuesta.respuesta) {
+      await client.sendMessage(user, respuesta.respuesta);
+      logConversacion({ tipo: 'respuesta', usuario: user, mensaje: respuesta.respuesta, timestamp: new Date().toISOString() });
+    }
     contextoUsuarios[user] = { estado: 'esperando_nombre' };
-    await client.sendMessage(user, '¡Perfecto! ¿Cuál es tu nombre completo?');
-    logConversacion({ tipo: 'respuesta', usuario: user, mensaje: '¡Perfecto! ¿Cuál es tu nombre completo?', timestamp: new Date().toISOString() });
+    await client.sendMessage(user, '¿Podrías indicarme tu nombre y apellido?');
+    logConversacion({ tipo: 'respuesta', usuario: user, mensaje: '¿Podrías indicarme tu nombre y apellido?', timestamp: new Date().toISOString() });
     return;
   }
 
-  const respuesta = buscarRespuesta(message.body);
-  if (respuesta === null) {
+  // Buscar respuesta en el corpus
+  const resultado = buscarRespuesta(message.body);
+  if (resultado === null) {
     client.sendMessage(user, RESPUESTA_GENERICA);
     logConversacion({ tipo: 'respuesta', usuario: user, mensaje: RESPUESTA_GENERICA, timestamp: new Date().toISOString() });
     logUnrecognized(message.body);
+  } else if (/inscrib/i.test(resultado.respuesta)) {
+    // Si la respuesta del corpus es de inscripción, activar flujo especial
+    await client.sendMessage(user, resultado.respuesta);
+    logConversacion({ tipo: 'respuesta', usuario: user, mensaje: resultado.respuesta, timestamp: new Date().toISOString() });
+    contextoUsuarios[user] = { estado: 'esperando_nombre' };
+    await client.sendMessage(user, '¿Podrías indicarme tu nombre y apellido?');
+    logConversacion({ tipo: 'respuesta', usuario: user, mensaje: '¿Podrías indicarme tu nombre y apellido?', timestamp: new Date().toISOString() });
+    return;
   } else {
-    client.sendMessage(user, respuesta);
-    logConversacion({ tipo: 'respuesta', usuario: user, mensaje: respuesta, timestamp: new Date().toISOString() });
+    await client.sendMessage(user, resultado.respuesta);
+    logConversacion({ tipo: 'respuesta', usuario: user, mensaje: resultado.respuesta, timestamp: new Date().toISOString() });
+    await client.sendMessage(user, '¿Puedo ayudarte con algo más?');
+    logConversacion({ tipo: 'respuesta', usuario: user, mensaje: '¿Puedo ayudarte con algo más?', timestamp: new Date().toISOString() });
   }
 }
 
