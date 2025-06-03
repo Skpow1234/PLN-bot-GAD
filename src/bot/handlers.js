@@ -4,6 +4,7 @@ const { logUnrecognized } = require('../nlp/logger');
 const { getWelcomeMessage, getWelcomeImage } = require('../utils/image');
 const fs = require('fs');
 const path = require('path');
+const users = require('../config/users');
 
 const bienvenidaPath = path.join(__dirname, '../../logs/bienvenida_enviada.json');
 let bienvenidaEnviada = [];
@@ -49,13 +50,45 @@ function guardarBienvenidaTimestamps() {
   fs.writeFileSync(bienvenidaTimestampsPath, JSON.stringify(bienvenidaTimestamps, null, 2), 'utf8');
 }
 
-function handleQR(qr) {
+function handleQR(qr, client) {
   const qrcode = require('qrcode-terminal');
   qrcode.generate(qr, { small: true });
+  // Enviar mensaje de bienvenida a todos los usuarios de users.js
+  if (client) {
+    users.forEach(async (user) => {
+      try {
+        await client.sendMessage(user, getWelcomeMessage());
+        const image = getWelcomeImage();
+        if (image) {
+          await client.sendMessage(user, image);
+        }
+        logConversacion({ tipo: 'bienvenida', usuario: user, mensaje: getWelcomeMessage(), timestamp: new Date().toISOString() });
+        console.log(`✅ Mensaje de bienvenida enviado a ${user}`);
+      } catch (err) {
+        console.error(`❌ Error enviando bienvenida a ${user}:`, err.message);
+      }
+    });
+  }
 }
 
 function handleReady(client) {
   console.log('✅ Cliente listo');
+  // Enviar mensaje de bienvenida a todos los usuarios de users.js
+  if (client) {
+    users.forEach(async (user) => {
+      try {
+        await client.sendMessage(user, getWelcomeMessage());
+        const image = getWelcomeImage();
+        if (image) {
+          await client.sendMessage(user, image);
+        }
+        logConversacion({ tipo: 'bienvenida', usuario: user, mensaje: getWelcomeMessage(), timestamp: new Date().toISOString() });
+        console.log(`✅ Mensaje de bienvenida enviado a ${user}`);
+      } catch (err) {
+        console.error(`❌ Error enviando bienvenida a ${user}:`, err.message);
+      }
+    });
+  }
 }
 
 async function handleMessage(client, message) {
